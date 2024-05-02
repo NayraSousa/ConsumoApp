@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ConsumoViagemApp</string>
+    <string name="text_header">Aplicativo para calcular o consumo de viagens</string>
+    <string name="edit_title1">Distância</string>
+    <string name="total_KM">Total em Quilômetros</string>
+    <string name="edit_title2">Preço</string>
+    <string name="price_Liter">Preço por Litro</string>
+    <string name="edit_Autonomy">Autonomia</string>
+    <string name="text_Km_Per_Liter">Quilômetros por Litro</string>
+    <string name="Answer">Seu gasto total será de:</string>
+    <string name="total">R$ 0</string>
+    <string name="button">Calcular</string>
+    <string name="erros">Preencha todos os campos</string>
+    <string name="division_byZero">Não é possível dividir por zero</string>
+</resources>

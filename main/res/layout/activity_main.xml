@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_header"
+        android:textSize="32sp"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/edit_title1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:hint="@string/edit_title1"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:id="@+id/total_KM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_KM"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edit_title2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/edit_title2"
+        android:textSize="20dp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/price_Liter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price_Liter"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/edit_Autonomy"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/edit_Autonomy"
+        android:textSize="20dp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/text_Km_Per_Liter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_Km_Per_Liter"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/Answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Answer"
+        android:textAllCaps="true"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total"
+        android:textSize="38sp"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/button"
+        android:textSize="20sp"
+        android:backgroundTint="@color/green"/>
+
+</LinearLayout>
